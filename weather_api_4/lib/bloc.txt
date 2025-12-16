@@ -1,0 +1,16 @@
+Bloc separates UI, state and business logic clearly and 
+makes apps highly scalable.
+
+Why bloc?
+    1. Handles complex state transitions
+    2. Predictable state changes
+    3. Event -> Logic -> state
+    4. Works great for medium/large apps
+    5. Great for testing
+
+Core concepts in Bloc
+ 
+ Event -> Something that happens (user clicks, API call)
+ state -> The current UI status (loading, success, error)
+ Bloc -> Receives events, runs logic, emits states
+ UI -> Listens to state changes and rebuilds
